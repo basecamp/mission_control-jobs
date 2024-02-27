@@ -34,6 +34,7 @@ PATH
   specs:
     mission_control-jobs (0.1.1)
       importmap-rails
+      propshaft
       rails (~> 7.1)
       stimulus-rails
       turbo-rails
@@ -176,12 +177,19 @@ GEM
     nio4r (2.7.0)
     nokogiri (1.16.2-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.16.2-x86_64-darwin)
+      racc (~> 1.4)
     nokogiri (1.16.2-x86_64-linux)
       racc (~> 1.4)
     parallel (1.24.0)
     parser (3.3.0.4)
       ast (~> 2.4.1)
       racc
+    propshaft (0.8.0)
+      actionpack (>= 7.0.0)
+      activesupport (>= 7.0.0)
+      rack
+      railties (>= 7.0.0)
     psych (5.1.2)
       stringio
     public_suffix (5.0.4)
@@ -316,6 +324,7 @@ GEM
 PLATFORMS
   arm64-darwin-21
   arm64-darwin-22
+  x86_64-darwin-23
   x86_64-linux
 
 DEPENDENCIES
